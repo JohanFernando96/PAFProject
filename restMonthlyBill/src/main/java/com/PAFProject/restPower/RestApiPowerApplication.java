@@ -1,13 +1,13 @@
-package com.PAFProject.restMonthlyBill;
+package com.PAFProject.restPower;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestApiMonthlyBillApplication {
+public class RestApiPowerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestApiMonthlyBillApplication.class, args);
+		SpringApplication.run(RestApiPowerApplication.class, args);
 	}
 
 }

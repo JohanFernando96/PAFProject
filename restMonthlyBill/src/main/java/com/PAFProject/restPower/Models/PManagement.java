@@ -1,9 +1,9 @@
-package com.PAFProject.restMonthlyBill.Models;
+package com.PAFProject.restPower.Models;
 
 import javax.persistence.*;
 
 @Entity
-public class Bills {
+public class PManagement {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,8 +24,6 @@ public class Bills {
 	@Column
 	private int pUnit;
 	
-	@Column
-	private int totalPrice;
 	
 	
 	public long getId() {
@@ -46,9 +44,7 @@ public class Bills {
 	public int getpUnit() {
 		return pUnit;
 	}
-	public int getTotalPrice() {
-		return totalPrice;
-	}
+
 	public void setId(long id) {
 		this.id = id;
 	}
@@ -66,9 +62,6 @@ public class Bills {
 	}
 	public void setpUnit(int pUnit) {
 		this.pUnit = pUnit;
-	}
-	public void setTotalPrice(int totalPrice) {
-		this.totalPrice = totalPrice;
 	}
 
 }

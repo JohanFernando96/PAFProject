@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.PAFProject</groupId>
-	<artifactId>restMonthlyBill</artifactId>
+	<artifactId>restPower</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>restAPIMonthlyBill</name>
 	<description>Monthly Bill Generator</description>
